@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DetailList3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pattimura"/>
+
+    <TextView
+        android:id="@+id/textViewnama4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Pattimura"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/textViewdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soekarno adalah pahlawan proklamasi sekaligus presiden pertama Republik Indonesia"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_below="@id/textViewnama4"/>
+</RelativeLayout>
